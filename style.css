@@ -1,0 +1,217 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: no-repeat;
+	background: linear-gradient(to bottom right,#FFC5C5, #81D6D6);
+}
+
+header{
+	display: flex;
+	padding: 15px;
+}
+
+.titulo{
+	margin-left: 2%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	color: white;
+	text-shadow: 4px 4px 2px rgba(241,80,105,0.6);
+}
+
+main{
+	width: 90%;
+	height: 80%;
+	display: flex;
+	margin-left: 6%;
+}
+
+.left{
+	width: 80%;
+}
+
+.right{
+	width: 80%;
+	margin-left: 20%;
+}
+
+.input-texto{
+	width: 100%;
+	height: 80%;
+	padding: 7px;
+	background: none;
+	outline: none;
+	border: none;
+	resize: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
+}
+
+.input-texto::-webkit-scrollbar{
+	width:7px;
+	background: none;
+}
+
+.input-texto::-webkit-scrollbar-thumb{
+	background: rgba(0, 0, 0, 0.10);
+	border-radius: 10px;
+	border-color: black;
+}
+
+::placeholder{
+	color: black;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+}
+.advertencia{
+	display: flex;
+	padding: 5px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.icono, p {
+	padding: 2px;
+}
+
+.botones{
+    display: flex;
+    flex-direction:row;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+.encriptar{
+    background: #F15069;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	border-color: #F15069;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: 0px 6px 12px 3px rgba(0, 0, 0, 0.15);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+	transform: scale(1.1)
+}
+
+.desencriptar{
+	background: #F15069;
+	color: white;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: #F15069;
+	outline: none;
+	box-shadow: 0px 6px 12px 3px rgba(0, 0, 0, 0.15);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+	transform: scale(1.1)
+}
+
+
+.mensaje{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background: none;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 300px;
+    border-radius: 10px;
+    border-color: #339999;
+	box-shadow: 0px 0px 10px 4px rgba(28, 137, 137, 0.5);
+    outline: none;
+	resize: none;
+}
+
+.mensaje::-webkit-scrollbar{
+	width:7px;
+	background: none;
+	border-radius: 10px;
+}
+
+.mensaje::-webkit-scrollbar-thumb{
+	background: rgba(0, 0, 0, 0.10);
+	border-radius: 10px;
+	border-color: black;
+}
+
+.mensaje::-webkit-scrollbar-track{
+	background: none;
+	border-radius: 10px;
+}
+
+.copiar{
+	background: #F15069;
+	color: white;
+	margin-top: 30px;
+	margin-left: 33%;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	border-color: #F15069;
+	outline: none;
+	box-shadow: 0px 6px 12px 3px rgba(0, 0, 0, 0.15);
+    transition: 1s all;
+    cursor: pointer;
+}
+.copiar:hover{
+	transform: scale(1.1)
+}
+
+footer{
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.github{
+	width: 50px;
+	text-align: center;
+	transition: 1s all;	
+}
+
+.github:hover{
+	transform: scale(1.1);
+}
+
+.linkedin{
+	width: 47px;
+	text-align: center;
+	padding-left: 3px;
+	transition: 1s all;	
+}
+
+.linkedin:hover{
+	transform: scale(1.1);
+}
+
+.copyright{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 10px;
+	padding-top: 5px;
+}
+
